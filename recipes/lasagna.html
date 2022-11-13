@@ -5,10 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lasagna Recipe</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        body{
+            background-color: blueviolet;
+            font-family: Arial, Verdana, Geneva, Tahoma, sans-serif;
+        }
+        p{
+            color: white; 
+            background-color: green
+        }
+
+        button{
+            margin: auto 5px;
+        }
+        
+    </style>
 </head>
 <body>
-    <h1>Lasagna Recipe</h1>
-    <img src="../images/lasagna.jpg" alt="">
+    <div>
+    <h1 id="top">Lasagna Recipe</h1>
+</div>
+    <img src="../images/lasagna.jpg" width="500" height="auto" alt="lasagna">
     <h2>Description</h2>
     <p>Lasagna recipe to be added later</p>
     <h3>Ingredients</h3>
@@ -24,7 +42,7 @@
         <li>Eggs</li>
     </ul>
     <h4>Steps</h4>
-    <p>Here's a very brief overview of what you can expect when you make homemade lasagna:</p>
+    <p style="color: white; background-color: blueviolet">Here's a very brief overview of what you can expect when you make homemade lasagna:</p>
     <ol>
         <li>Make the meat sauce.</li>
         <li>Cook the noodles.</li>
@@ -34,8 +52,12 @@
         <li>Let the lasagna rest before serving.</li>
         
     </ol>
+    
     <br>
-    <a href="../index.html">Back to recipe homepage</a>
+    <a href="../index.html"><button style="background-color: orange; font-size: 18px; color: white; border-radius: 10px; border-color: orange;">Back to Recipe homepage</button></a>
+
+    <a href="#top"><button style="background-color: orange; font-size: 18px; color: white; border-radius: 10px; border-color: orange;">Back to top</button></a>
+    
 
 </body>
 </html>

@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+div#top{
+    color: white; 
+    background-color: red; 
+    font-size: 32px;
+}
+a:visited{
+    color: chartreuse;
+}
+a:active{
+    color: crimson;
+}
